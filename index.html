@@ -108,25 +108,53 @@
 
     <form action="process.php" method="post">
         <div>
+<!--             
             <label for="">first name</label>
-            <input type="text" name="firstName">
+            <input type="text" name="firstName" value="your name">
+            insted of value we should use placeholder
+            -->
+
+            <label for="">first name</label>
+            <input type="text" name="firstName" placeholder="your name">
         </div>
         <br>
         <div>
             <label for="">last name</label>
-            <input type="text" name="lastName">
+            <input type="text" name="lastName" placeholder="your last name">
         </div>
         <br>
         <div>
             <label for="">email</label>
-            <input type="email" name="email">
+            <input type="email" name="email" placeholder="your email">
         </div>
         <br>
         <div>
-            <label for="">email</label>
-            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+            <label for="">Message</label>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">What is your gender</label>
+            <select name="gender" id="" >
+                <option value="male">male</option>
+                <option value="women">women</option>
+                <option value="trans">other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">How old are you</label>
+            <input type="number" name="age" value="30">
+        </div>
+        </div>
+        <br>
+        <div>
+            <label for="">What is your birthday date:</label>
+            <input type="date" name="age" placeholder="your birthday">
         </div>
     </form>
+    <br>
+    <input type="submit" name="submit" value="submit">
 
 
 
