@@ -12,6 +12,9 @@
         </nav>
     </header>
 
+    <a href="./test.html#down" id="up"><button>go down</button></a>
+
+
     <main>
 
         <section>
@@ -96,13 +99,65 @@
                 <br><br>
 
                 <label for="age">How old are you</label><br>
-                <input type="number" id="age" name="age" value="30 " min="10" max="100">
+                <input type="number" id="age" name="age" value="30" min="10" max="100">
 
                 <br><br>
+
+                <label for="email">Pleade enter your email</label><br>
+                <input type="email" id="email" name="email" placeholder="your email" required style="background-color: cornflowerblue;">
+
+                <br><br>
+
+                <h4>What language can you speak?</h4>
+
+                <input type="checkbox" id="English" name="English" value="English"> 
+                <label for="English"> English </label>
+                <br>
+                <input type="checkbox" id="Persian" name="Persian" value="Persian"> 
+                <label for="Persian"> Persian </label>
+                <br>
+                <input type="checkbox" id="Germany" name="Germany" value="Germany"> 
+                <label for="Germany"> Germany </label>
+
+                <br><br>
+
+                <h4>What is your gender?</h4>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" >female</label><br>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">other</label><br>
+
+
+                <br><br>
+
+                <h4>What is your favorite country to live?</h4>
+
+                <label for="coutry">your favorite country</label><br>
+                <select name="country" id="country">
+                    <option value="Iran">Iran</option>
+                    <option value="America">America</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Rousia">Rousia</option>
+                </select>
+
+                <br><br>
+
+                <label for="password">Please enter your password</label> <br>
+                <input type="password" id="password" name="password" placeholder="password" minlength="5" maxlength="10" required>
+
+                <br><br>
+
+                    <input type="submit">
 
             </form>
         </section>
 
+        <a href="./test.html#up" id="down"><button>go up</button></a>
     </main>
 </body>
 </html>
